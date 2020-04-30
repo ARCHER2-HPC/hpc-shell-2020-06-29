@@ -109,13 +109,13 @@ highlighter: rouge
 # * workshop_host_homedir - The location of the home directory on the remote host
 #
 # Example: Graham cluster at Compute Canada, University of Waterloo
-workshop_host: "Graham"
-workshop_host_id: "ComputeCanada_Graham"
-workshop_host_login: "graham.computecanada.ca"
-workshop_host_location: "University of Waterloo"
-workshop_host_prompt: "[yourUsername@gra-login1 ~]$ "
-workshop_host_homedir: "/home"
-workshop_sched_id: "ComputeCanada_Graham_slurm"
+# workshop_host: "Graham"
+# workshop_host_id: "ComputeCanada_Graham"
+# workshop_host_login: "graham.computecanada.ca"
+# workshop_host_location: "University of Waterloo"
+# workshop_host_prompt: "[yourUsername@gra-login1 ~]$ "
+# workshop_host_homedir: "/home"
+# workshop_sched_id: "ComputeCanada_Graham_slurm"
 # Example: Cirrus at EPCC, The University of Edinburgh
 # workshop_host: "Cirrus"
 # workshop_host_id: "EPCC_Cirrus"
@@ -123,3 +123,11 @@ workshop_sched_id: "ComputeCanada_Graham_slurm"
 # workshop_host_location: "EPCC, The University of Edinburgh"
 # workshop_host_prompt: "[yourUsername@cirrus-login0 ~]$ "
 # workshop_host_homedir: "/lustre/home/tc001"
+# Example: ARCHER2 at EPCC, The University of Edinburgh
+workshop_host: "ARCHER2"
+workshop_host_id: "ARCHER2_Cirrus"
+workshop_host_login: "login.archer2.ac.uk"
+workshop_host_location: "EPCC, The University of Edinburgh"
+workshop_host_prompt: "[yourUsername@archer2-login0 ~]$ "
+workshop_host_homedir: "/home/tc001/tc001"
+
